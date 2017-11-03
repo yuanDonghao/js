@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>AJAX回顾</title>
+</head>
+<body>
+	
+</body>
+<script>
+  var xhr = new XMLHttpRequest()
+  xhr.open('GET', 'tset.php')
+  xhr.send()
+  xhr.onreadystatechange = function() {
+  	if (this.readyState !== 4) return
+  	console.log(this)
+  }
+
+
+	
+
+
+</script>
+</html>
